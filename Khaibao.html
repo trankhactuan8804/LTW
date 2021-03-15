@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<title>Khai báo</title>
+</head>
+<body>
+	<div>
+		<div style="padding-top: 2px">
+			<span>
+				<img style="padding-top: 5px;padding-left: 38%" src="./10.png">
+			</span>
+		</div>		
+	</div>
+	<div style=" padding-top: 20px; padding-right: 25%;padding-left: 25%; color: #686761">
+		<form style="padding-top: 3px;padding-bottom: 20px; background-color:#bcbbb7 ; font-size: 18px">
+			<div>
+				<p style="padding-left: 25px; text-align: left"><b> HỌ VÀ TÊN </b>	<br><br>	  
+				<input style="width: 350px; font-size: 20px" value="" placeholder="Họ và tên" class="form-control error" name="fields[fullName]" type="text" value="" style="text-transform: uppercase;" data-msg-required="Bạn chưa nhập họ tên" onblur="this.value = this.value.toUpperCase(); this.value=removeSpaces(this.value);" aria-required="true" aria-invalid="true"/>
+				</p>
+			</div>
+			<div style="padding-left: 25px;font-size: 18px;padding-top: 20px">	
+				<div>
+					<b>NĂM SINH</b>&nbsp;&nbsp;&nbsp;
+						<select style="font-size: 18px">
+							<option> Năm </option> <option>2000</option><option>1999</option><option>1998</option><option>1997</option><option>1996</option><option>1995</option><option>1994</option><option>1993</option><option>1992</option><option>1991</option><option>1990</option><option>1989</option><option>1988</option><option>1987</option><option>1986</option><option>1985</option><option>1984</option><option>1983</option><option>1982</option><option>1981</option><option>1980</option><option>1979</option><option>1978</option><option>1977</option><option>1976</option><option>1975</option><option>1974</option><option>1973</option><option>1972</option><option>1971</option><option>1970</option>
+						</select>		
+					&emsp;&nbsp;&nbsp;
+                	<b>ĐỊA CHỈ E-MAIL</b>&nbsp;&nbsp;&nbsp;
+				<input style="font-size: 20px"; type="email"/>
+				</div>
+			</div>
+
+			<div style="padding-left: 25px;padding-top: 25px">
+					<b>GIỚI TÍNH</b>&nbsp;&nbsp;&nbsp;
+				<select style="font-size: 18px">
+				<option> -Chọn- </option> <option>Nam</option> <option>Nữ</option> <option>Khác</option>
+				</select>
+					&nbsp;&nbsp;&nbsp;
+					<b>SỐ ĐIỆN THOẠI</b>&nbsp;&nbsp;&nbsp;&nbsp;
+					<input type="text"; style="font-size: 20px"/>
+			</div>
+
+			<div style="padding-top: 30px; padding-left: 25px">
+				<p><b>ĐỊA CHỈ (ÍT NHẤT 3 CẤP: XÃ/PHƯỜNG - QUẬN/HUYỆN - TỈNH/TP)</b></p>
+			<input style="font-size: 20px;padding-right: 20%" class="form-control border-form-control " name="Address" onchange="OnchangeValue(this)" value="" placeholder="Địa chỉ" type="text">
+			</div>
+
+			<div style="padding-top: 25px; padding-left: 25px">
+				<p><b>ĐỐI TƯỢNG KHAI BÁO</b></p>
+				<select style="font-size: 18px">
+					<option> Nạn nhân</option>
+					<option> Người nhà nạn nhân</option>
+					<option> Người chứng kiến vụ việc</option>
+				</select>
+			</div>
+
+			<div style="padding-top: 30px; padding-left: 25px">
+				<p><b>NỘI DUNG VỤ VIỆC</b></p>
+				<textarea style="font-size: 17px" cols="66" rows="8"></textarea>
+			</div>
+
+			<div style="padding-top: 30px; padding-left: 25px">
+				<p><b>CÁC TÀI LIỆU LIÊN QUAN</b></p>
+				<input type="file"/>
+			</div>
+
+			<div style="padding-top: 30px; padding-left: 25px; color: black;padding-right: 9px">
+				<input type="checkbox"> Tôi cam đoan những lỡi khai trên là sự thật, nếu không tôi sẽ chịu mọi hình phạt của <a href="./test.html">Pháp luật và Nhà nước 
+			</div>
+
+		</form>
+</div>
+</body>
+</html>
