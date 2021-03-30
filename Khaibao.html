@@ -1,74 +1,134 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
+	<meta charset="utf-8">
 	<title>Khai báo</title>
+	<link rel="stylesheet" type="text/css" href="./khaibao.css">
+	<link rel="stylesheet" type="text/css" href="./khaibao1.css">
+
 </head>
 <body>
-	<div>
-		<div style="padding-top: 2px">
-			<span>
-				<img style="padding-top: 5px;padding-left: 38%" src="./10.png">
-			</span>
-		</div>		
+	<div id="Khung0">
+		<div class="T0">
+			<span><b>KHAI BÁO</b></span>
+		</div>
+
+		<div class="T1">
+			<div class="T2">
+				<svg width="20" height="20">
+ 					<circle cx="10" cy="10" r="8" stroke="green" stroke-width="2" fill="yellow" />
+				</svg>	
+			</div>	
+			<span class="T3">Thông tin cá nhân</span>
+		</div>
+		
+		<div class="T11">
+			<div class="T2">
+				<svg width="20" height="20">
+ 					<circle cx="10" cy="10" r="8" stroke="green" stroke-width="2" fill="yellow" />
+				</svg>	
+			</div>	
+			<span class="T33">Nội dung khai báo</span>
+		</div>
 	</div>
-	<div style=" padding-top: 20px; padding-right: 25%;padding-left: 25%; color: #686761">
-		<form style="padding-top: 3px;padding-bottom: 20px; background-color:#bcbbb7 ; font-size: 18px">
-			<div>
-				<p style="padding-left: 25px; text-align: left"><b> HỌ VÀ TÊN </b>	<br><br>	  
-				<input style="width: 350px; font-size: 20px" value="" placeholder="Họ và tên" class="form-control error" name="fields[fullName]" type="text" value="" style="text-transform: uppercase;" data-msg-required="Bạn chưa nhập họ tên" onblur="this.value = this.value.toUpperCase(); this.value=removeSpaces(this.value);" aria-required="true" aria-invalid="true"/>
-				</p>
-			</div>
-			<div style="padding-left: 25px;font-size: 18px;padding-top: 20px">	
-				<div>
-					<b>NĂM SINH</b>&nbsp;&nbsp;&nbsp;
-						<select style="font-size: 18px">
-							<option> Năm </option> <option>2000</option><option>1999</option><option>1998</option><option>1997</option><option>1996</option><option>1995</option><option>1994</option><option>1993</option><option>1992</option><option>1991</option><option>1990</option><option>1989</option><option>1988</option><option>1987</option><option>1986</option><option>1985</option><option>1984</option><option>1983</option><option>1982</option><option>1981</option><option>1980</option><option>1979</option><option>1978</option><option>1977</option><option>1976</option><option>1975</option><option>1974</option><option>1973</option><option>1972</option><option>1971</option><option>1970</option>
-						</select>		
-					&emsp;&nbsp;&nbsp;
-                	<b>ĐỊA CHỈ E-MAIL</b>&nbsp;&nbsp;&nbsp;
-				<input style="font-size: 20px"; type="email"/>
+
+
+
+	<div id="Khung1">
+		<div class="Top">	
+			<div class="VN1">
+				<img src="./vn.png" style="height: 2rem; width: 2rem"/>
+			</div>	
+			<div class="VN">				
+				<span><b>VIỆT NAM</b></span>
+			</div>	
+		</div>
+
+
+		<div class="K0"></div>
+		<div class="K00">	
+			<form class="K1">
+				<div class="Top1">
+					<div class="Top2">
+						<span class="Hop1"><b>THÔNG TIN CÁ NHÂN</b></span>
+					</div>
+				</div>	
+				<div class="K2">
+					<b> HỌ VÀ TÊN </b>
+					<div>
+						<input class="Hop" value="" placeholder="Họ và tên"/>
+					</div>	
 				</div>
-			</div>
 
-			<div style="padding-left: 25px;padding-top: 25px">
-					<b>GIỚI TÍNH</b>&nbsp;&nbsp;&nbsp;
-				<select style="font-size: 18px">
-				<option> -Chọn- </option> <option>Nam</option> <option>Nữ</option> <option>Khác</option>
-				</select>
-					&nbsp;&nbsp;&nbsp;
-					<b>SỐ ĐIỆN THOẠI</b>&nbsp;&nbsp;&nbsp;&nbsp;
-					<input type="text"; style="font-size: 20px"/>
-			</div>
 
-			<div style="padding-top: 30px; padding-left: 25px">
-				<p><b>ĐỊA CHỈ (ÍT NHẤT 3 CẤP: XÃ/PHƯỜNG - QUẬN/HUYỆN - TỈNH/TP)</b></p>
-			<input style="font-size: 20px;padding-right: 20%" class="form-control border-form-control " name="Address" onchange="OnchangeValue(this)" value="" placeholder="Địa chỉ" type="text">
-			</div>
 
-			<div style="padding-top: 25px; padding-left: 25px">
-				<p><b>ĐỐI TƯỢNG KHAI BÁO</b></p>
-				<select style="font-size: 18px">
-					<option> Nạn nhân</option>
-					<option> Người nhà nạn nhân</option>
-					<option> Người chứng kiến vụ việc</option>
-				</select>
-			</div>
+				<div class="K2">
+					<div class="K3">	
+						<b>NĂM SINH</b>
+						<div>
+							<input class="Hop1" name="DayOfBirth" onchange="OnchangeValue(this)" value="" pattern="\d*" type="number"/>
+						</div>
+					</div>		
 
-			<div style="padding-top: 30px; padding-left: 25px">
-				<p><b>NỘI DUNG VỤ VIỆC</b></p>
-				<textarea style="font-size: 17px" cols="66" rows="8"></textarea>
-			</div>
+					<div class="K4">	
+                		<b>ĐỊA CHỈ E-MAIL</b>
+                		<div>
+							<input class="Hop1" type="email" placeholder=" Email"/>	
+						</div>		
+					</div>
+				</div>	
 
-			<div style="padding-top: 30px; padding-left: 25px">
-				<p><b>CÁC TÀI LIỆU LIÊN QUAN</b></p>
-				<input type="file"/>
-			</div>
+				<div class="K2">
+					<div class="K3">
+						<b>GIỚI TÍNH</b>
+						<select class="Hop2">
+							<option> --Chọn giới tính-- </option> <option>Nam</option> <option>Nữ</option> <option>Khác</option>
+						</select>
+					</div>
+					<div class="K4">
+						<b>SỐ ĐIỆN THOẠI</b>
+						<div>
+							<input class="Hop1" type="text"/>
+						</div>	
+					</div>
+				</div>
 
-			<div style="padding-top: 30px; padding-left: 25px; color: black;padding-right: 9px">
-				<input type="checkbox"> Tôi cam đoan những lỡi khai trên là sự thật, nếu không tôi sẽ chịu mọi hình phạt của <a href="./test.html">Pháp luật và Nhà nước 
-			</div>
 
-		</form>
-</div>
+				<div class="K2">
+					<b>ĐỊA CHỈ (ÍT NHẤT 3 CẤP: XÃ/PHƯỜNG - QUẬN/HUYỆN - TỈNH/TP)</b>	
+					<input class="Hop" name="Address" onchange="OnchangeValue(this)" value="" placeholder="Địa chỉ" type="text">
+				</div>
+
+				
+				<div class="K2">
+					<b>ĐỐI TƯỢNG KHAI BÁO</b>
+					<div>
+						<select class="Hop1">
+							<option> Nạn nhân</option>
+							<option> Người nhà nạn nhân</option>
+							<option> Người chứng kiến vụ việc</option>
+						</select>
+					</div>	
+				</div>
+
+				<div class="ND">
+					<b>NỘI DUNG VỤ VIỆC</b>
+					<textarea cols="60" rows="14"></textarea>
+				</div>
+
+				<div class="K2">
+					<b>CÁC TÀI LIỆU LIÊN QUAN</b>
+					<div>
+						<input type="file"/>
+					</div>		
+				</div>
+
+				<div class="CD">
+					<input type="checkbox"> Tôi cam đoan những lỡi khai trên là sự thật, nếu không tôi sẽ chịu mọi hình phạt của <a href="./test.html">Pháp luật và Nhà nước 
+				</div>
+
+			</form>
+		</div>	
+	</div>
 </body>
 </html>
