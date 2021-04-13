@@ -15,7 +15,7 @@ body{
 #Khung1{
 	float: right;
 	width: 80%;
-	height: 1200px;
+	height: 1220px;
 	border:2px solid: #686761;
 	border-top-right-radius: 15px;
 	border-top-left-radius: 15px;
@@ -47,7 +47,7 @@ body{
 
 .K00{
 	width: 75%;
-	height: 1200px;
+	height: 740px;
 	padding-left: 40px;
 }
 
@@ -60,7 +60,7 @@ body{
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
 	background-color:white;
-    font-size: 17px;
+    font-size: 16px;
     border-color: #f9f9f9;
     border-style: groove;
 }
@@ -76,8 +76,8 @@ body{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: white;
-	background-color: #8080f7;	
-  	border:2px solid #8080f7;
+	background-color: #1e1c1c;	
+  	border:2px solid #1e1c1c;
     width:190px;
     height:22px;
     border-top-right-radius: 27px;
@@ -116,19 +116,52 @@ body{
 }
 
 .Hop{
-	font-size: 19px;
+	font-size: 17px;
 	width: 450px;
 	height: 30px;
 }
 
 .Hop1{
-	font-size: 17px;
+	font-size: 15px;
 	width: 210px;
 	height: 30px;
 }
 .Hop2{
-	font-size: 19px;
+	font-size: 17px;
 	width: 218px;
 	height:36px;
 }
 
+
+.K5{
+	padding-top: 50px;
+	width: 88%;
+	height: 100px;
+	padding-left: 12%;
+}
+.K51{
+	margin-top: 5px;
+	padding-top: 20px;
+	border-top: 1px solid #d6d5d4;
+	width: 84%;
+	height: 40px;
+}
+
+.K52{
+	padding-top: 20px;
+}
+
+.Tieptheo{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	float: right;
+	color: white;
+	text-align: center;
+	background-color: #1e1c1c;	
+	width: 87px;
+	height: 24px;
+    border-top-right-radius: 17px;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+    border-bottom-right-radius: 17px;
+ }
