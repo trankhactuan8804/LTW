@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head><title>
+	Trang chủ Khai báo
+</title><meta charset="utf-8" /><meta property="og:type" content="website" />
+    <link rel="stylesheet" href="Khaibao.css"/>
+    <link rel="stylesheet" href="font2.css" /><link rel="stylesheet" href="font1.css" /><link rel="stylesheet" href="font.css"/><link rel="stylesheet" href="them.demo.css" /><link href="https://fonts.googleapis.com/css?family=Muli&amp;display=swap" rel="stylesheet" />
+<body id="page-top" style="font-family: Muli,Source Sans Pro !important;">          
+<style>
+.round-tabs {
+        border: medium none;
+        margin: 0 0 20px;
+    }
+</style>
+<div>
+    <div class="page-wrapper">
+        <div class="page-inner">
+            <aside class="page-sidebar list-filter-active">
+                            <div class="page-logo" style="padding-left: 60px; width: 100%; height: 12%;">      
+                                <div class="Kb">
+                                    <span> <b>Khai báo</b></span>
+                                 </div>   
+                            </div>
+                            <nav id="js-primary-nav" class="primary-nav js-list-filter" role="navigation">
+                                
+                                <ul id="js-nav-menu" class="nav-menu" style="padding-top: 30px;">
+                                        <li><a title="Trang chủ" class=" waves-effect waves-themed" href="Khai bao.html"><i class="fa fa-pencil-square-o fa-2x"></i><span class="Kb1" data-i18n="nav.to-khai-y-te">Trang chủ</span></a></li>
+                                        <li><a title="Nội dung khai báo" class=" waves-effect waves-themed" href="https://congan.binhthuan.gov.vn/canh-bao-phuong-thuc-thu-doan-toi-pham-su-dung-cong-nghe-cao-nham-chiem-doat-tai-san-N377.aspx"><i class="fa fa-thumb-tack fa-2x"></i><span class="Kb1" data-i18n="nav.vung-dich">Các phương thức</span></a></li>
+                                    </ul>
+                                <div class="filter-message js-filter-message bg-success-600"></div>
+                            </nav>
+                        </aside>
+                        <div class="page-content-wrapper">
+                            <header class="page-header" role="banner" style="height:12%">
+                                
+                                <div class="ml-auto d-flex">
+                                    <div class="intl-language language-header">Tiếng việt</div>
+                                    <div class="hidden-md-down">
+                                        <a class="header-icon" data-toggle="modal" data-target=".js-modal-settings"><i class="fa fa-cog"></i></a>
+                                    </div>
+                                    <div>
+                                        <a data-toggle="dropdown" class="header-icon d-flex align-items-center justify-content-center ml-2" aria-expanded="false">
+                                            <img src="vn.png" class="profile-image rounded-circle" style="height: 2rem; width: 2rem;"></a>
+                                    </div>
+                                </div>
+                            </header>
+                            <main id="js-page-content" role="main" class="page-content" onclick="HideMenu()">
+                                <ol class="breadcrumb bg-info-400">
+                                    <li class="breadcrumb-item"><a class="text-white" href="Khai bao.html"><i class="fa fa-home mr-1"></i>Trang chủ</a></li>
+                                    <li class="breadcrumb-item active text-white">Khai báo</li>
+                                </ol>
+                                <div class="admin-page mgr-form-types">
+                                    <div class="button-reset" style="position: relative; z-index: 999;">
+                                        <button type="button" onclick="Reload()" class="ant-btn button"><span>Làm mới</span></button>
+                                    </div>
+                                    
+                                    <div class="row">
+                                        <div class="col-md-8">
+                                            <div class="widget" data-disease="1">
+                                            
+                                                <div class="text-center">
+                                                    <ul class="nav nav-tabs round-tabs" role="tablist">
+                                                        <li class="nav-item">
+                                                            <a class="nav-link active" data-toggle="tab" data-tab="infotab" href="#infotab" role="tab"><span>Thông tin cá nhân</span>  </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                
+                                                <div class="tab-content">
+                                                    <div class="tab-pane active" id="infotab" role="tabpanel">
+                                                        <div class="order-detail-form">
+                                                            <div class="col-lg-10 col-md-10 mx-auto" style="font-family: Muli,Source Sans Pro !important;">
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group" data-target="Name">
+                                                                            <label class="control-label">Họ và tên <span class="required">(*)</span></label>
+                                                                            <input class="form-control border-form-control" value="" name="Name" onchange="OnchangeValue(this)" placeholder="Nguyễn Văn A" type="text">
+                                                                            <label class="control-mess" id="mess"><span class="required">Tên không được để trống!</span></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>    
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group" data-target="DayOfBirth">
+                                                                            <label class="control-label">Năm sinh <span class="required">(*)</span></label>
+                                                                            <input class="form-control border-form-control" name="DayOfBirth" onchange="OnchangeValue(this)" value="" pattern="\d*" type="number">
+                                                                            <label class="control-mess" id="mess"><span class="required">Năm sinh phải là số và không được để trống!</span></label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group">
+                                                                            <label class="control-label">Địa chỉ Email </label>
+                                                                            <input class="form-control border-form-control" value="" placeholder="nguyenvana@gmail.com" type="email">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group" data-target="Gender">
+                                                                            <label class="control-label">Giới tính <span class="required">(*)</span></label>
+                                                                            <select class="select2 form-control border-form-control" name="Gender" onchange="OnchangeValue(this)">
+                                                                                <option value="">-- Chọn giới tính --</option>
+                                                                                <option value="1">Nam</option>
+                                                                                <option value="2">Nữ</option>
+                                                                                <option value="3">Khác...</option>
+                                                                            </select>
+                                                                            <label class="control-mess" id="mess"><span class="required">Giới tính không được để trống!</span></label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-sm-6">
+                                                                        <div class="form-group" data-target="Phone">
+                                                                            <label class="control-label">Số điện thoại </label>
+                                                                            <input class="form-control border-form-control" name="Phone" value="" placeholder="0987654321" type="tel">
+                                                                            
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <div class="col-sm-12">
+                                                                        <div class="form-group" data-target="Address">
+                                                                            <label class="control-label">Địa chỉ (ít nhất 3 cấp: Xã/Phường - Quận/Huyện - Tỉnh/TP) <span class="required">(*)</span></label>
+                                                                            <input class="form-control border-form-control " name="Address" onchange="OnchangeValue(this)" value="" placeholder="Địa chỉ" type="text">
+                                                                            <label class="control-mess" id="mess"><span class="required">Địa chỉ không được để trống!</span></label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cart_navigation" id="forTab1">
+                                                                <a style="color: white;" class="btn btn-success pull-right" onclick="GoNextTab(this)">Tiếp theo</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="tab-pane" id="declarationtab" role="tabpanel">
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <label class="control-label"><b>Đối tượng khai báo </b><span class="required">(*)</span></label>
+                                                                <select class="select2 form-control border-form-control" name="ObjId" onchange="OnchangeValue(this)">
+                                                                    <option value="">-- Chọn đối tượng khai báo --</option>
+                                                                    <option value="1">Nạn nhân (Người bị hại)</option>
+                                                                    <option value="2">Người thân nạn nhân</option>                                                                               
+                                                                </select>
+                                                                           
+                                                            </div>            
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-12">
+                                                                <div class="ND">  
+                                                                    <label class="control-label"><b>NỘI DUNG VỤ VIỆC </b><span class="required">(*)</span></label>
+                                                                    <div><textarea cols="60" rows="9" input class="form-control border-form-control" name="Nội dung" value="" placeholder="Xảy ra khi nào, ở đâu,..." type="text"> </textarea>
+                                                                    </div>
+                                                                </div>
+                                                            </div> 
+                                                        </div>  
+                                                        <div class="row">
+                                                            <div class="col-sm-12">    
+                                                                <div class="ND">
+                                                                    <b>CÁC TÀI LIỆU LIÊN QUAN </b>
+                                                                    <div class="ND1">
+                                                                        <input type="file"/>
+                                                                    </div>
+                                                                </div>    
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-md-12">
+                                                                <div class="ND">
+                                                                    <input type="checkbox" style="padding-right: 10px;">&nbsp;&nbsp;Tôi xin cam đoan lời khai trên là đúng và tôi sẽ chịu trách nhiệm trước lời khai của mình!    
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    <div class="cart_navigation" id="forTab1">
+                                                            <a style="color: white;" class="btn btn-success pull-right" onclick="GoNextTab(this)">Gửi</a> 
+                                                    </div>
+                                                    </div>
+                                                    <div class="tab-pane" id="symptomtab" role="tabpanel">
+                                                        <div class="order-detail-form">
+                                                        <div class="row">
+                                                            <div class="col-md-12 col-12">
+                                                                <div class="Xong">
+                                                                    <p><b><i>Khai báo thành công</i></b></p>
+                                                                    <div class="cart_navigation" id="forTab1">
+                                                                        <a href="Khai bao.html" style="color: white; float: right;" class="btn btn-success pull-right" onclick="GoNextTab(this)">Xong</a> 
+                                                                    </div>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                            
+                                                        </div> 
+                                                        </div>
+                                                    </div>
+
+                                                    
+                                                </div>  
+                                               
+                                            </div>
+                                        </div> 
+
+                                        <div class="col-md-4 ui-sortable sortable-grid">
+                                            <div id="mgr-info3" class="panel panel-collapsed panel-sortable" data-panel-close="false">
+                                                <div class="VA"> <b>TIN XEM NHIỀU*</b></div>
+                                                <div class="New">
+                                                    <div class="New1">
+                                                        <a class="New2" href="http://bocongan.gov.vn/canh-bao-toi-pham/day-manh-cong-tac-phong-ngua-phat-hien-cac-doi-tuong-nguoi-nuoc-ngoai-loi-dung-cong-nghe-cao-vi-pham-phap-luat-d104-t26588.html">
+                                                        <img style="width: 103px; height: 76px; padding-top: 5px;" src="http://bocongan.gov.vn/knd/tt/PublishingImages/NguyenPhuongAnh/2019/10/1_1.jpg">
+                                                        </a>
+                                                        <a class="New3" style="padding-top: 3px;" href="http://bocongan.gov.vn/canh-bao-toi-pham/day-manh-cong-tac-phong-ngua-phat-hien-cac-doi-tuong-nguoi-nuoc-ngoai-loi-dung-cong-nghe-cao-vi-pham-phap-luat-d104-t26588.html"><span><b>Đẩy mạnh công tác phòng ngừa, phát hiện các đối tượng nước ngoài lợi dụng công nghệ cao vi phạm pháp luật</b></span></a>
+                                                    </div>
+                                                    <div class="New1">
+                                                        <a class="New2" href="http://bocongan.gov.vn/canh-bao-toi-pham/canh-giac-truoc-hoat-dong-huy-dong-von-tra-thuong-theo-phuong-thuc-da-cap-trai-phep-cua-winsbank-d104-t28450.html">
+                                                            <img style="width: 103px; height: 76px; padding-top: 3px;" src="http://bocongan.gov.vn/knd/tt/PublishingImages/NguyenTatDat/2020/7/1.jpg">
+                                                            </a>
+                                                            <a class="New3" href="http://bocongan.gov.vn/canh-bao-toi-pham/canh-giac-truoc-hoat-dong-huy-dong-von-tra-thuong-theo-phuong-thuc-da-cap-trai-phep-cua-winsbank-d104-t28450.html"><span><b>Cảnh giác trước hoạt động huy động vốn, trả thưởng theo phương thức đa cấp trái phép của Winsbank</b></span></a>
+                                                    </div> 
+                                                    <div class="New1">
+                                                        <a class="New2" href="http://bocongan.gov.vn/canh-bao-toi-pham/nhan-dien-thu-doan-moi-cua-cac-hacker-nham-chiem-doat-tai-san-cac-ca-nhan-doanh-nghiep-d104-t26645.html">
+                                                        <img style="width: 103px; height: 83px; padding-top: 10px;" src="http://bocongan.gov.vn/knd/tt/PublishingImages/Tran%20Thanh%20Xuan/2019/9/2.jpg">
+                                                        </a>
+                                                        <a class="New3" style="padding-top: 7px;" href="http://bocongan.gov.vn/canh-bao-toi-pham/nhan-dien-thu-doan-moi-cua-cac-hacker-nham-chiem-doat-tai-san-cac-ca-nhan-doanh-nghiep-d104-t26645.html"><span><b>Nhận diện thủ đoạn mới của các hacker nhằm chiếm đoạt tài sản các cá nhân, doanh nghiệp</b></span></a>
+                                                    </div>
+                                                    <div class="New1">
+                                                            <a class="New2" href="http://bocongan.gov.vn/tin-tuc/nhung-dau-hieu-lua-dao-cua-vi-thanh-toan-dien-tu-payasian-t26644.html">
+                                                            <img style="width: 103px; height: 88x; padding-top: 10px;" src="http://bocongan.gov.vn/knd/tt/PublishingImages/Tran%20Thanh%20Xuan/2019/9/vi-dien-tu.jpg">
+                                                            </a>
+                                                            <a class="New3" style="padding-top: 23px;" href="http://bocongan.gov.vn/tin-tuc/nhung-dau-hieu-lua-dao-cua-vi-thanh-toan-dien-tu-payasian-t26644.html"><span><b>Những dấu hiệu lừa đảo của ví thanh toán điện tử PayAsian</b></span></a>
+                                                    </div>
+                                                </div>
+                                                <div class="panel-container fullscreen collapse" id="QRTarget2" role="content">
+                                                    <div class="panel-content">
+                                                        <img src="" id="QRCode" style="width: 100%; padding-bottom: 63px; padding-top: 20px;">
+                                                        
+                                                    
+                                                        <div class="button-submit button-hide" style="padding-top: 20px;">
+                                                        
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                 </div>           
+                                </div>  
+                            </main>     
+                        </div>
+                    </div> 
+</div>
+    <script type="text/javascript" src="main.js"></script>
+    <script type="text/javascript" src="theme.js"></script>
+    <script type="text/javascript" src="font2.js"></script>
+    <script type="text/javascript" src="font1.js"></script>
+    <script type="text/javascript" src="Script.js"></script>
+
+    <div class="hidden" style="display: none;" data-query="page">{"ModuleName":"Home","IsHome":"1","lang":"2","prefix":"Home","pageVirtualUrl":"trang-chu","UrlEngine":"UrlByPageUrlEngine","site":"1"}</div>
+</body>
+</html>

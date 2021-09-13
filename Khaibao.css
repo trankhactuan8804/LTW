@@ -1,0 +1,315 @@
+.Kb {
+    font-size: 32px;
+    color: brown;
+    text-align: center;
+}
+
+.Kb1 {
+    font-size: 16px;
+    color: brown;
+}
+.VA {
+    width: 100%;
+    height: 32px;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    color: rgb(133, 51, 51);
+    background-color: rgba(193, 193, 193, 0.4);
+}
+.New {
+    width: 100%;
+    height: 615px;
+    padding-top: 20px;
+    color: black;
+}
+
+.New1{
+    width: 100%;
+    height: 105px;
+    padding-top: 10px;
+
+}
+
+.New2{
+    width: 40%;
+    padding-left: 16px;
+    height: 105px;
+    color: brown;
+}
+
+.New3{
+    padding-right: 5px;
+    width: 60%;
+    float: right;
+    font-size: 13px;
+    height: 100px;
+    color: brown;
+}
+.ND{
+    padding-top: 35px;
+}    
+.ND1{
+    padding-top: 10px;
+}
+.Xong{
+    text-align: center;
+    height: 80px;
+    padding-left: 13%;
+    padding-right: 13%;
+    font-size: 20px;
+}
+
+
+.mgr-form-types .button-reset {
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .mobile-nav-on .Page-chinh-overlay {
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background: rgba(0,0,0,.09);
+        }
+    }
+
+.mgr-form-types .button-reset button {
+        background: linear-gradient(90deg,#2085d3,#44b6e7),rgba(0,0,0,.05);
+        border: none;
+        outline: none;
+        font-weight: 700;
+        padding: 8px 30px;
+        min-width: 100px;
+        border-radius: 4px;
+        align-items: center;
+        text-align: center;
+        color: #fff;
+        height: auto;
+        margin: 5px;
+    }
+.button-submit .button {
+           border-radius: 10px;
+            font-size: 17px;
+            color: #fff;
+            padding: 10px;
+            align-items: center;
+            height: auto;
+            width: 100%;
+            border: none;
+        }
+
+.intl-language {
+        line-height: 66px;
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+
+.widget {
+        background-color: #ffffff;
+        border: 1px solid rgba(193, 193, 193, 0.4);
+        border-radius: 4px;
+        display: inline-block;
+        padding: 20px;
+        position: relative;
+        width: 100%;
+    }
+@media only screen and (min-width: 602px) {
+        .nav-tabs .nav-item {
+            margin-bottom: -1px;
+            width: 30%;
+            margin: auto;
+        }
+    }
+
+
+@media only screen and (max-width: 600px) {
+        .nav-tabs .nav-item {
+            margin-bottom: -1px;
+            margin: auto;
+        }
+    }
+
+
+
+.round-tabs li a {
+        border: 2px solid #e9e9e9 !important;
+        border-radius: 26px !important;
+        color: #cccccc !important;
+        font-size: 13px !important;
+        font-weight: 700 !important;
+        min-width: 114px !important;
+        padding: 3px 0 !important;
+        position: relative;
+        text-transform: uppercase;
+    }
+
+
+.nav-link {
+        display: block;
+        padding: .5rem 1rem;
+    }
+
+.widget .tab-content {
+        border-top: 1px solid #e9e9e9;
+        overflow: hidden;
+        padding-bottom: 1rem;
+        padding-top: 3rem;
+    }
+
+.tab-content > .tab-pane {
+        display: none;
+    }
+
+.table {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 1rem;
+        background-color: transparent;
+    }
+
+table {
+        border-collapse: collapse;
+    }
+
+.cart_summary > thead, .cart_summary > tfoot {
+        background: #f7f7f7 none repeat scroll 0 0;
+    }
+
+.table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #e9ecef;
+    }
+
+.table td, .table th {
+        padding: .75rem;
+        vertical-align: top;
+        border-top: 1px solid #e9ecef;
+    }
+
+.cart_navigation {
+        border-top: 1px solid #e9e9e9;
+        margin-top: 3rem;
+        padding-top: 2rem;
+    }
+
+.mx-auto {
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+
+.payment-menthod {
+        margin: 0 0 19px;
+    }
+
+.payment-menthod ul li {
+            display: inline;
+        }
+
+.payment-menthod a {
+            color: #cccccc;
+            font-size: 53px;
+        }
+
+.form-group {
+        margin-bottom: 1rem;
+    }
+.radio{
+            padding: 5px 0px 5px 0px;
+    }
+.form-group label {
+            font-weight: 800;
+        }
+
+.control-mess {
+        font-size: 12px;
+        display: none;
+    }
+
+.needshow {
+        display: block !important;
+    }
+
+span.required {
+        color: red;
+    }
+
+.control-label {
+        color: #0b1831c2;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+.custom-control.custom-checkbox {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+.border-form-control {
+        border-radius: 2px;
+        font-size: 14px;
+        line-height: normal;
+    }
+
+.form-control {
+        border-radius: 3px;
+        font-size: 13px;
+        line-height: normal;
+    }
+
+.form-control {
+        display: block;
+        width: 100%;
+        padding: .5rem .75rem;
+        font-size: 1rem;
+        line-height: 1.25;
+        color: #495057;
+        background-color: #fff;
+        background-image: none;
+        background-clip: padding-box;
+        border: 1px solid rgba(0,0,0,.15);
+        border-radius: .25rem;
+        transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    }
+
+button, input {
+        overflow: visible;
+    }
+
+.cart_navigation {
+        border-top: 1px solid #e9e9e9;
+        margin-top: 3rem;
+        padding-top: 2rem;
+    }
+
+.tab-content > .active {
+        display: block;
+    }
+
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        color: #495057;
+        background-color: #fff;
+        border-color: #ddd #ddd #fff;
+    }
+.hidden{
+        display:none;
+    }
+.round-tabs li a.active, .round-tabs li a:hover {
+        background: #4a3eed;
+        background: -moz-linear-gradient(left, #4a3eed 0%, #9d1fff 100%);
+        background: -webkit-linear-gradient(left, #4a3eed 0%, #9d1fff 100%);
+        background: linear-gradient(to right, #4a3eed 0%, #9d1fff 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#4a3eed', endColorstr='#9d1fff', GradientType=1);
+        border-color: #4a3eed !important;
+        color: #ffffff !important;
+        box-shadow: 0 0 23px rgba(69, 102, 173, 0.23);
+        line-height: 40px;
+    }
